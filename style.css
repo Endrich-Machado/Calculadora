@@ -1,0 +1,40 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: azure;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.main_container {
+  font-size: 2rem;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  grid-template-rows: repeat(7, 60px);
+  gap: 15px;
+  min-height: 100vh;
+  justify-content: center;
+  align-content: center;
+  outline: none;
+}
+#resultado {
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+  grid-column: 1/5;
+}
+#display {
+  background-color: black;
+  border-radius: 10px;
+  grid-column: 1/5;
+}
+.main_container > button {
+  border-radius: 10px;
+  background-color: black;
+}
+
+.botãoDuplo {
+  grid-row: span 2;
+}
