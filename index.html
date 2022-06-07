@@ -15,27 +15,27 @@
   </head>
   <body>
     <div class="main_container">
-      <p id="resultado"></p>
-      <p id="display"></p>
-      <button onclick="limpar()">CE</button>
-      <button onclick="pegaValor('+')">+/-</button>
-      <button onclick="pegaValor('%')">%</button>
-      <button onclick="pegaValor('/')">/</button>
+      <div id="resultado"></div>
+      <div id="display"></div>
+      <button id="buttonColor" class="buttonColor" onclick="limpar()">CE</button>
+      <button id="buttonColor" onclick="pegaValor('+')">+/-</button>
+      <button id="buttonColor" onclick="pegaValor('%')">%</button>
+      <button id="buttonColor" onclick="pegaValor('/')">/</button>
       <button onclick="pegaValor('7')">7</button>
       <button onclick="pegaValor('8')">8</button>
       <button onclick="pegaValor('9')">9</button>
-      <button onclick="pegaValor('*')">*</button>
+      <button id="buttonColor" onclick="pegaValor('*')">*</button>
       <button onclick="pegaValor('4')">4</button>
       <button onclick="pegaValor('5')">5</button>
       <button onclick="pegaValor('6')">6</button>
-      <button onclick="pegaValor('-')">-</button>
+      <button id="buttonColor" onclick="pegaValor('-')">-</button>
       <button onclick="pegaValor('1')">1</button>
       <button onclick="pegaValor('2')">2</button>
       <button onclick="pegaValor('3')">3</button>
-      <button class="botãoDuplo" onclick="pegaValor('+')">+</button>
+      <button id="buttonColor" class="botãoDuplo" onclick="pegaValor('+')">+</button>
       <button onclick="pegaValor('0')">0</button>
       <button onclick='pegaValor(".")'>.</button>
-      <button onclick="calcular()">=</button>
+      <button id="buttonColor" onclick="calcular()">=</button>
     </div>
     <script src="scripts.js"></script>
   </body>
